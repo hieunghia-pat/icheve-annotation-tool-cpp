@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>media/logo-uit.ico</file>
+        <file>media/icons/close-icon.png</file>
+        <file>media/icons/copy-icon.png</file>
+        <file>media/icons/cut-icon.png</file>
+        <file>media/icons/open-icon.png</file>
+        <file>media/icons/paste-icon.png</file>
+        <file>media/icons/redo-icon.png</file>
+        <file>media/icons/save-icon.png</file>
+        <file>media/icons/undo-icon.png</file>
+        <file>main.qml</file>
+        <file>qml/AnnotationItem.qml</file>
+        <file>qml/MainMenuBar.qml</file>
+        <file>qml/MainToolBar.qml</file>
+        <file>qml/NotificationDialog.qml</file>
+        <file>qml/PassageContainer.qml</file>
+    </qresource>
+</RCC>
