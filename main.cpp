@@ -1,6 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
+#include <QIcon>
 
 #include "annotationmodel.hpp"
 #include "backend.hpp"
@@ -8,6 +9,7 @@
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+    app.setWindowIcon(QIcon(u"qrc:/logo-uit.ico"_qs));
 
     Backend* backend = new Backend(&app);
     AnnotationModel* annotationModel = new AnnotationModel(&app);

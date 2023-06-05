@@ -2,6 +2,8 @@ QT += quick
 
 INCLUDEPATH += headers
 
+CONFIG += c++17
+
 SOURCES += \
 		sources/annotationlist.cpp \
         sources/annotation.cpp \
